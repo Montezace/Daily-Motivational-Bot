@@ -1,0 +1,22 @@
+
+---
+
+## 2. Initialize Git and push to GitHub
+
+cd motivation-telegram-bot
+
+# 1. Initialize git
+git init
+
+# 2. Create main branch name (optional if already on main)
+git branch -M main
+
+# 3. Add remote (create the repo on GitHub first via github.com/new)
+git remote add origin https://github.com/Montezace/motivation-telegram-bot.git
+
+# 4. Stage and commit
+git add .
+git commit -m "Initial commit: motivation telegram bot"
+
+# 5. Push
+git push -u origin main
